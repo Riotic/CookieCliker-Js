@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+    
+    <title>DragonRush</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>DragonRush</h1>
+            </div>
+        </div>
+
+        <div class="main_div">
+            <div class="square" style="padding-top: 50px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus, ad saepe, adipisci corporis alias eum impedit quia deserunt quasi quam in unde sint reprehenderit harum. Harum enim odio nulla!
+                <p><strong>Add Golds<input onclick="addGold(plusgold)" type="button" style="width:100px" value="Click for Gold" /><span id="plusgold">+1 Gold</span>&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;<strong>Your Golds<input id="creds" size="34" type="text" value="0" /></strong></p><br>
+                <p><strong>Slime</strong></p>
+                <p>Buy slimes :&nbsp;<input id="slime" type="button" style="width:110px" /></p><br>
+
+                <p><strong>Undead</strong></p>
+                <p>Buy undeads :&nbsp;<input id="undead" type="button" style="width:110px" /></p><br>
+
+                <p><strong>Imp</strong></p>
+                <p>Buy imps :&nbsp;<input id="imp" type="button" style="width:110px" /></p><br>
+
+                <p> You own <span id="totalminions" size="2" type="text" value="0">0</span> minions</p>
+
+                <p><strong>Golds per second:</strong>&nbsp;&nbsp;<input id="GoldPerSecond" size="28" type="text" value="0" /></p><br>
+                    <span id = "gold"></span>
+                    <p><strong>Inventory</strong></p><br>
+                <p> You own <span id = "slimeamount" size="2" type="text" value="0">0</span> slimes.<br>
+                    You own <span id = "undeadamount" size="2" type="text" value="0">0</span> undeads.<br>
+                    You own <span id = "impamount" size="2" type="text" value="0">0</span> imps </p>
+                <button style="margin-top: 20px;"><a href="#" onClick="save()">Sauvegarder</a></button>
+                <button style="margin-top: 20px;"><a href="#" onClick="load()">Charger</a> </button>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+        
+        </footer>
+    </div>
+    <script type="text/javascript" src="../javascript/script.js"></script>
+</body>
+</html>
+
